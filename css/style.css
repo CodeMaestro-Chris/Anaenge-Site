@@ -7124,3 +7124,97 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Donation Page */
+.donation-section {
+  padding: 50px 20px;
+}
+
+.donation-container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+.donation-container strong{
+  color: #2c004b;
+  font-weight: 450;
+  font-size:large;
+}
+.donation-container h2 {
+  color: #2c004b;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.donation-container p {
+  font-size: 16px;
+  color: #555;
+}
+
+.donation-box {
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 30px;
+  text-align: left;
+}
+.donation-box a{
+  color: #24003d;
+  font-size: 16px;
+}
+.donation-box h3 {
+  color: #131313;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 29px;
+}
+
+.donation-item {
+  margin-top: 20px;
+}
+
+.copy-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+
+.copy-row span {
+  font-size: 25px;
+  color: #131313;
+  word-break: break-word;
+  font-weight: 500;
+  font-family: 'Segoe UI';
+}
+
+.copy-row button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: #2c004b;
+}
+
+.copy-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s ease;
+}
+
+.copy-row button:hover .copy-icon {
+  transform: scale(1.2);
+  color: #912f2f;
+}
+
+.follow-up {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #666;
+}
