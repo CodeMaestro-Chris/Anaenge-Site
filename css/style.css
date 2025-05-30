@@ -804,6 +804,70 @@ h3 {
 .line-button:hover::before {
   background: #009DFF;
 }
+a.donate-btn{
+  padding: 12px 15px !important;
+  background-color: white;
+  font-size: 15px;
+  color: #24003d !important;
+  border-radius: 4px;
+}
+a.donate-btn:hover::before{
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  a.donate-btn{
+    background-color: #24003d;
+    color: white !important;
+    width: 20%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 833px){
+  a.donate-btn{
+    width: 25%;
+  }
+}
+@media screen and (max-width: 650px){
+  a.donate-btn{
+    width: 28%;
+  }
+}
+@media screen and (max-width: 588px){
+  a.donate-btn{
+    width: 32%;
+  }
+}
+@media screen and (max-width: 518px){
+  a.donate-btn{
+    padding: 10px 12px !important;
+    width: 37%;
+  }
+}
+@media screen and (max-width: 437px){
+  a.donate-btn{
+    padding: 10px 12px !important;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 408px){
+  a.donate-btn{
+    padding: 10px 12px !important;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 367px){
+  a.donate-btn{
+    padding: 10px 12px !important;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 334px){
+  a.donate-btn{
+    padding: 10px 12px !important;
+    width: 55%;
+  }
+}
 
 /* line 229, ../../Arafath/CL/january 2024/242. anaenge/HTML/scss/_btn.scss */
 .book_now {
