@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800|Yeseva+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800|Yeseva+One&display=swap");
-/* line 1, ../../Arafath/CL/january 2024/242. anaenge/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,14 +12,12 @@
   justify-content: start;
 }
 
-/* line 13, ../../Arafath/CL/january 2024/242. anaenge/HTML/scss/_extend.scss */
 .overlay::before {
   background-image: -moz-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
   background-image: -webkit-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
   background-image: -ms-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
 }
 
-/* line 18, ../../Arafath/CL/january 2024/242. anaenge/HTML/scss/_extend.scss */
 .boxed-btn6, .boxed-btn6:hover {
   background-image: -moz-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
   background-image: -webkit-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
