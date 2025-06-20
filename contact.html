@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -163,7 +164,7 @@
                     <div class="col-12">
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-8" data-aos="fade-right">
                         <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-12">
@@ -346,6 +347,13 @@
     <!-- footer_end  -->
     
         <!-- JS here -->
+        <script src="js/aos.js"></script>
+        <script>
+            AOS.init({
+              duration: 700,
+              once: true,
+            });        
+        </script>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
         <script src="js/popper.min.js"></script>

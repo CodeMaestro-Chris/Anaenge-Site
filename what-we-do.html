@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
 </head>
 <body>
     
@@ -92,7 +93,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="bradcam_text text-center">
+                    <div class="bradcam_text text-center" data-aos="fade-in">
                         <h3>What We Do</h3>
                         <p>Here To Make A Difference</p>
                     </div>
@@ -111,7 +112,7 @@
             </div>
             <div class="row justify-content-center causes_cta">
                 <div class="col-lg-4 col-md-6">
-                    <div class="single_reson">
+                    <div class="single_reson" data-aos="fade-right">
                         <div class="thum">
                             <div class="thum_1">
                                 <img src="img/help/1.png" alt="">
@@ -126,7 +127,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="single_reson">
+                    <div class="single_reson" data-aos="fade-right" data-aos-delay="100">
                         <div class="thum">
                             <div class="thum_1">
                                 <img src="img/help/2.png" alt="">
@@ -141,7 +142,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="single_reson">
+                    <div class="single_reson" data-aos="fade-right" data-aos-delay="200">
                         <div class="thum">
                             <div class="thum_1">
                                 <img src="img/help/3.png" alt="">
@@ -162,10 +163,10 @@
     <div class="good-living col-11">
         <h1 class="col-lg-5 col-ld-6 col-md-12">BUILDING A BETTER LIFE FOR HER</h1>
         <div class="live">
-            <div class="live-img col-5 col-esd-12 col-ld-12">
+            <div class="live-img col-5 col-esd-12 col-ld-12" data-aos="fade-right">
                 <img src="./img/gallery/13.jfif" alt="">
             </div>
-            <div class="live-text col-lg-6 col-esd-12 col-ld-12">
+            <div class="live-text col-lg-6 col-esd-12 col-ld-12" data-aos="fade-right" data-aos-delay="100">
                 <div>
                     <h4>Providing Free Culinary Classes</h4>
                     <p>Learn culinary skills at zero cost and become a chef of your own</p>
@@ -209,7 +210,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
-                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4" data-aos="fade-right">
                             <div class="thumb">
                                 <img src="img/courses/course-1.jfif" alt="">
                             </div>
@@ -224,7 +225,7 @@
                                 <a class="read_more" href="contact.html">Get Started</a>
                             </div>
                         </div>
-                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4" data-aos="fade-right" data-aos-delay="100">
                             <div class="thumb">
                                 <img src="img/courses/course2.jfif" alt="">
                             </div>
@@ -239,7 +240,7 @@
                                 <a class="read_more" href="contact.html">Get Started</a>
                             </div>
                         </div>
-                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4" data-aos="fade-up" data-aos-delay="200">
                             <div class="thumb">
                                 <img src="img/courses/course3.jfif" alt="">
                             </div>
@@ -440,5 +441,12 @@
     
         <script src="js/main.js"></script>
         <script src="js/preloader.js"></script>
+        <script src="js/aos.js"></script>
+        <script>
+            AOS.init({
+              duration: 700,
+              once: true,
+            });  
+        </script>
 </body>
 </html>

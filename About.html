@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -100,7 +101,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="bradcam_text text-center">
+                    <div class="bradcam_text text-center" data-aos="fade-in">
                         <h3>About Us</h3>
                         <p class="mt-3">Know More About Anenge Charity Foundation</p>
                     </div>
@@ -477,6 +478,13 @@
 
     <script src="js/main.js"></script>
     <script src="js/preloader.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+          duration: 700,
+          once: true,
+        });
+     </script>
 </body>
 
 </html>

@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -105,7 +106,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">
-                        <div class="slider_text ">
+                        <div class="slider_text" data-aos="fade-left">
                             <span>Join Us Today.</span>
                             <h3> Together, We Can 
                                 Make a Difference</h3>
@@ -133,7 +134,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
-                    <div class="single_reson">
+                    <div class="single_reson" data-aos="fade-right">
                         <div class="thum">
                             <div class="thum_1">
                                 <img src="img/help/1.jfif" alt="">
@@ -147,7 +148,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="single_reson">
+                    <div class="single_reson" data-aos="fade-right" data-aos-delay="100">
                         <div class="thum">
                             <div class="thum_1">
                                 <img src="img/help/4.jfif" alt="">
@@ -161,7 +162,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="single_reson">
+                    <div class="single_reson" data-aos="fade-right" data-aos-delay="200">
                         <div class="thum">
                             <div class="thum_1">
                                 <img src="img/help/3.jfif" alt="">
@@ -222,7 +223,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
-                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4" data-aos="fade-up">
                             <div class="thumb">
                                 <img src="img/courses/course-1.jfif" alt="">
                             </div>
@@ -237,7 +238,7 @@
                                 <a class="read_more" href="./About.html">Read More</a>
                             </div>
                         </div>
-                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4" data-aos="fade-up" data-aos-delay="100">
                             <div class="thumb">
                                 <img src="img/courses/course2.jfif" alt="">
                             </div>
@@ -252,7 +253,7 @@
                                 <a class="read_more" href="./About.html">Read More</a>
                             </div>
                         </div>
-                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                        <div class="single_cause col-lg-4 col-md-12 col-sm-12 col-xl-4" data-aos="fade-up" data-aos-delay="200">
                             <div class="thumb">
                                 <img src="img/courses/course3.jfif" alt="">
                             </div>
@@ -472,6 +473,14 @@
 
     <script src="js/main.js"></script>
     <script src="js/preloader.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+          duration: 700,
+          once: true,
+        });
+    
+    </script>
 </body>
 
 </html> 
